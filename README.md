@@ -1,3 +1,9 @@
+Tutorial is here:
+https://learn.microsoft.com/en-us/training/modules/persist-data-ef-core/6-reverse-engineering
+Example useful EF command:
+dotnet ef dbcontext scaffold "Data Source=Promotions/Promotions.db" Microsoft.EntityFrameworkCore.Sqlite --context-dir Data --output-dir Models
+
+
 # Persist and retrieve relational data with Entity Framework Core
 
 Hello, friend! You've found the sample code repository for a [Microsoft Learn module](https://learn.microsoft.com/training/modules/persist-data-ef-core)! **You'll find the finished solution on [this branch](https://github.com/MicrosoftDocs/mslearn-persist-data-ef-core/tree/solution)**.
